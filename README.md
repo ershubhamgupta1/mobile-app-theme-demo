@@ -14,7 +14,7 @@
 
 <div align="center">
     <img src="/screenshots/dark-theme-app-products-screen.png" width="200px"</img> 
-    <img src="/screenshots/dark-theme-app-prod-detail-screen.png" width="200px"</img> 
+    <img src="/screenshots/dark-theme-app-prod-details-screen.png" width="200px"</img> 
     <img src="/screenshots/dark-theme-app-checkout-screen.png" width="200px"</img> 
     <img src="/screenshots/light-theme-app-products-screen.png" width="200px"</img> 
     <img src="/screenshots/light-theme-app-prod-detail-screen.png" width="200px"</img> 
