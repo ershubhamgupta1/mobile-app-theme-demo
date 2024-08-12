@@ -1,4 +1,4 @@
-# TypeScript Example
+# Employee Management App
 
 <p>
   <!-- iOS -->
@@ -9,27 +9,33 @@
   <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
 </p>
 
-```sh
-npx create-expo --example with-typescript
-```
+## Screenshots
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
 
-## 🚀 How to use
+<div align="center">
+    <img src="/screenshots/dark-theme-app-products-screen.png" width="200px"</img> 
+    <img src="/screenshots/dark-theme-app-prod-detail-screen.png" width="200px"</img> 
+    <img src="/screenshots/dark-theme-app-checkout-screen.png" width="200px"</img> 
+    <img src="/screenshots/light-theme-app-products-screen.png" width="200px"</img> 
+    <img src="/screenshots/light-theme-app-prod-detail-screen.png" width="200px"</img> 
+    <img src="/screenshots/light-theme-app-checkout-screen.png" width="200px"</img> 
+</div>
 
-#### Creating a new project
+## Install Dependencies
+
+- command to install : npm i
+
+## Start development build
+
+npm run start
+
+## Features
+
+- Color Pallete
+- Typescript used
+- Theme Demo
+
+#### To Create a new project
 
 - Create a project: `npx create-expo --example with-typescript`
 - `cd` into the project
-
-### Adding TypeScript to existing projects
-
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
-
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
-
-- [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)

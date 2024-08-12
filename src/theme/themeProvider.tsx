@@ -12,7 +12,7 @@ interface ThemeContextProps {
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
 
 export const CustomThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>(lightTheme);
+  const [theme, setTheme] = useState<Theme>(darkTheme);
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === lightTheme ? darkTheme : lightTheme));
